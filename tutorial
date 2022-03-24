@@ -1,0 +1,101 @@
+# install package globally
+
+npm i -g create-reacte-app
+npm install -g create-reacte-app@1.5.2
+
+# Create app
+
+create-react-app my_react_app
+
+# Made up of:
+# - development server
+# - Webpack - packages your app for the web
+# - Babel - compiles JS
+
+cd my_react_app/
+
+# Start the development server.
+npm start
+
+# Bundles the app into static files for production.
+npm run build
+
+# Start the test runner
+npm test
+
+# Removes this tool and copies build dependencies, configuration files
+# and scripts into the app directory. If you do this, you can’t go back!
+npm run eject
+
+# bootstrap -> CSS library -> modern styling
+# favicon -> favourite icon
+# manifest.json -> metadata attributes
+
+# Root component
+<div id="root"></div>
+
+# JSX XML inside JS
+# JSX converted to JS & HTML
+# React element  JSX Expression
+const hi =       <h1>Hello World</h1>
+
+# React code
+var hi = React.createElement("h1", null, "Hello world")
+
+# components go in the src/components/ folder
+# components are named with camelCase convention
+
+# Use CMD+P in VSCODE to open files by filepath
+# Use CMD+D to multi cursor edits
+
+# React.Fragment
+
+# state = {};
+# state includes any data that the component needs
+# Can reference state by using {this.state.count}
+<React.Fragment>
+    <span>{this.state.count}</span>
+    <button>Increment</button>
+</React.Fragment>
+
+# can add expressions like {2 + 2} here
+<span>{3 * 7}</span>
+
+# Bootstrap styling
+- badge
+- badge-primary -> Blue colour
+- badge-warning -> yellow colour
+- btn
+- btn-secondary
+- btn-sm -> small button
+- m-2    -> margin of 2
+- 
+
+# controlled component
+- component that doesn't have any internal state
+- component is passes all data by params
+- parent passes all data to controlled component
+- child raised events to communicate with parent
+
+
+# When creating components you can create the components inside a StrictMode tag
+# this will perform extra checks
+<React.StrictMode>
+
+
+# Life cycles
+# 80-20 percent rule - not all hooks present here:
+- Mount phase - 3 lifecycle hooks
+-- constructor
+-- render
+-- componentDidMount
+- Update - 2 hooks
+-- render
+-- componentDidUpdate
+- Unmounting phase - 1 hook
+-- componentWillUnmount
+ 
+
+
+
+
