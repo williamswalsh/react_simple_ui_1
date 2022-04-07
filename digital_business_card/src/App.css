@@ -1,0 +1,89 @@
+.container {
+  background: #23252C;
+  height: 868px;
+  width: 550px;
+}
+
+.space-above-profile {
+  height: 44px;
+}
+
+.profile--photo { 
+  height: 317px;
+  width: 317px;
+  left: 116px;
+  top: 44px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile--full_name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.profile--title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  
+  color: #F3BF99;
+}
+
+.profile--website-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  text-align: center;  
+  color: #F5F5F5;
+}
+
+.profile--button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.profile--button-container > button {
+  font-size: 17px;
+  height: 34px;
+  width: 115px;
+  left: 151px;
+  top: 468px;
+  border-radius: 6px;
+  padding: 9px,
+  13px,
+  9px,
+  11px;
+  margin-inline: 8.5px;
+}
+
+.profile--email-button {
+  font-size: 17px;
+}
+.profile--linkedin-button {
+  background-color: #5093E2;
+  color: white;
+}
+
+.about--text {
+  color: white;
+  text-align: left;
+}
+
+.interests--text {
+  color: white;
+  text-align: left;
+}
